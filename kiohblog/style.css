@@ -176,7 +176,7 @@ div.header-search #s {
     min-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    min-width: 400px;
+    width: 100%;
 }
 
 article.post {
