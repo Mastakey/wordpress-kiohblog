@@ -164,13 +164,11 @@ div.header-search #s {
 .site-content {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 .site-header-content {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 /* Content */
@@ -178,6 +176,7 @@ div.header-search #s {
     min-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    min-width: 400px;
 }
 
 article.post {
