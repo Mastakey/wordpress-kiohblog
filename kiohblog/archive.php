@@ -44,6 +44,13 @@ if (have_posts()) :
     while (have_posts()) : the_post();
     get_template_part('template-content');
     endwhile;
+?>
+    <div class="pagination">
+<?php
+    echo paginate_links();
+?>
+    </div>
+<?php
 else : {
     echo '<p>No content found</p>';
 }

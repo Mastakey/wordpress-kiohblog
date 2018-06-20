@@ -286,6 +286,23 @@ p.post-info a:visited {
     background-color: #006ec3;
 }
 
+/* Pagination */
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.page-numbers {
+    border: 1px solid #BBB;
+    padding: 5px 10px 5px 10px;
+    background: #FFF;
+    margin-right: 10px;
+}
+
+.current {
+    background: #006ec3;
+    color: #FFF;
+}
+
 /* Footer */
 
 .footer-container {
